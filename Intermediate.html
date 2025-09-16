@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        table {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+            background: #fff;
+            margin-top: 40px;
+        }
+        td, th {
+            padding: 16px;
+        }
+        h1 {
+            color: #333;
+            letter-spacing: 2px;
+        }
+        h2, h3 {
+            color: #2a7ae2;
+            margin-top: 0;
+        }
+        ul, ol {
+            margin: 0 0 16px 20px;
+        }
+        img {
+            border-radius: 8px;
+            margin-bottom: 12px;
+            border: 2px solid #2a7ae2;
+        }
+        .sidebar ul {
+            list-style-type: square;
+        }
+        form {
+            background: #f7f7f7;
+            padding: 16px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            max-width: 400px;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 95%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+        input[type="submit"] {
+            background: #2a7ae2;
+            color: #fff;
+            border: none;
+            padding: 10px 24px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background 0.2s;
+        }
+        input[type="submit"]:hover {
+            background: #1d5bbf;
+        }
+        a {
+            color: #2a7ae2;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 24px 0;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" width="80%" align="center" style="border-collapse: collapse;">
+        <tr>
+            <td colspan="2" style="background-color: #f2f2f2; text-align: center;">
+                <h1>MY PERSONAL HOME PAGE</h1>
+            </td>
+        </tr>
+        <tr>
+            <td width="25%" style="vertical-align: top; background-color: #e6e6e6;" class="sidebar">
+                <img src="VIE.jpg" alt="Profile Photo" width="180">
+                <h2>Reyvie Fernando</h2>
+                <ul>
+                    <li><b>Senior High School:</b> New Era University</li>
+                    <li><b>Junior High School:</b> Erneseto Rondon High School</li>
+                </ul>
+                <h3>Sidebar</h3>
+                <ul>
+                    <li>Programming</li>
+                    <li>Web Design</li>
+                    <li>Playing Chess</li>
+                    <li>Reading Tech News</li>
+                    <li>Playing Guitar</li>
+                    <li>Watching Movies</li>
+                </ul>
+            </td>
+            <td width="75%" style="vertical-align: top;">
+                <p>Hello! My name is Reyvie Fernando. I am a second-year IT student with a passion for programming, web design, and exploring new technologies</p>
+                <table border="1" style="margin-bottom: 20px;">
+                    <tr>
+                        <th>Age</th>
+                        <td>20 years old</td>
+                    </tr>
+                    <tr>
+                        <th>Date of Birth</th>
+                        <td>June 15, 2005</td>
+                    </tr>
+                    <tr>
+                        <th>Location</th>
+                        <td>Manila, Philippines</td>
+                    </tr>
+                </table>
+                <h3>My Goals</h3>
+                <ol>
+                    <li>Improve my coding skills</li>
+                    <li>Build personal projects</li>
+                    <li>Become a professional web developer</li>
+                </ol>
+                <h3>Favorite Website</h3>
+                <p>Visit <a href="https://www.w3schools.com/" target="_blank">W3Schools</a> for learning web development.</p>
+                <a href="https://your-username.github.io/your-repo-name/" target="_blank">Visit my website</a>
+                <hr>
+                <h2>Contact Me</h2>
+                <form action="#" method="post">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                    <input type="submit" value="Send">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="background-color: #f2f2f2; text-align: center;">
+                <p>&copy; 2025 My Mini Page</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
